@@ -1,0 +1,54 @@
+body {
+    background: #1c022e ;
+    
+    
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5;
+    background-size: cover;
+    background-image: url(img/wallpaper.jpg);
+  }
+  
+  
+  .container {
+  margin: 0 auto;
+  width: 960px;
+  }
+  
+  article {
+  background-color: rgb(85, 20, 80);
+  border: 0.1px solid #CCC;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+  color: whitesmoke;
+  text-align: justify;
+  opacity:0.95;
+  }
+  
+  
+  article h2 {
+  text-shadow: rgb(134, 46, 110);
+  margin: 0;
+  }
+  
+  article img {
+  border: 5px solid rgb(134, 46, 110);
+  float: right;
+  margin: 10px 10px 0 0;
+  padding: 2px;
+  width: 200px;
+  height: 160px;
+  
+
+  }
+
+  h1{color: black; 
+    text-shadow: rgb(93, 73, 87) 0.3em 0.3em 0.4em;
+}
+
+footer 
+{
+    font-size: 20px;
+    text-align: center;  
+    color: black;
+}
