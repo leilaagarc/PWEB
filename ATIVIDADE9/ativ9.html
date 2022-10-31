@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 9</title>
+    <script src="ativ9.js"></script>
+</head>
+
+<style>
+body{
+    background-color:rgb(230, 150, 250);
+}
+.maior{
+    display:flex;
+    height: 72px;
+    background: #8758FF;
+    color: white;
+    font-size:32px;
+    align-items:center;
+    padding:25px;
+    box-shadow: 5px 5px 15px 5px #000000;
+    margin: 75px; 
+    width: 400px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.maior:hover{
+    background-color: #2a028f;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.cresc{
+    display:flex;
+    height: 72px;
+    background: #8758FF;
+    color: white;
+    font-size:32px;
+    align-items:center;
+    padding:25px;
+    box-shadow: 5px 5px 15px 5px #000000;
+    margin: 75px; 
+    width: 400px; 
+    border-radius: 15px;
+    cursor: pointer;
+}
+.cresc:hover{
+    background-color: #2a028f;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+</style>
+<body>
+    
+    
+    <button class="maior" onclick="maiorDeTres()">Maior dos três números</button>
+    <button class="cresc" onclick="ordemCrescente()">Ordem crescente</button>
+    
+</body>
+</html>
