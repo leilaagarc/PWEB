@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 10</title>
+    <script src="ativ10.js"></script>
+</head>
+<style>
+    body{
+        background-color:rgb(19, 209, 209);
+    }
+    .newObj{
+        display:flex;
+        height: 72px;
+        background:#f5e07b;
+        color: black;
+        font-size:32px;
+        align-items:center;
+        padding:25px;
+        box-shadow: 5px 5px 15px 5px #000000;
+        margin: 75px; 
+        width: 500px;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+    .newObj:hover{
+        background-color: #f6b71a;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+    
+    .dotNot{
+        display:flex;
+        height: 72px;
+        background:#f5e07b;
+        color: black;
+        font-size:32px;
+        align-items:center;
+        padding:25px;
+        box-shadow: 5px 5px 15px 5px #000000;
+        margin: 75px; 
+        margin-top: 100px;
+        width: 500px; 
+        border-radius: 15px;
+        cursor: pointer;
+    }
+    .dotNot:hover{
+        background-color: #f6b71a;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+    .literal{
+        display:flex;
+        height: 72px;
+        background:#f5e07b;
+        color: black;
+        font-size:32px;
+        align-items:center;
+        padding:25px;
+        box-shadow: 5px 5px 15px 5px #000000;
+        margin: 75px; 
+        margin-top: 100px;
+        width: 500px; 
+        border-radius: 15px;
+        cursor: pointer;
+    }
+    .literal:hover{
+        background-color: #f6b71a;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+    </style>
+<body>
+    <button class="newObj" onclick="newObj()">Criando com NEW OBJECT</button>
+    <button class="dotNot" onclick="dotNot()">Criando com DOTNOTATION</button>
+    <button class="literal" onclick="literal()">Criando de forma LITERAL</button>
+</body>
+</html>
