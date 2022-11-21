@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Atividade 14</title>
+</head>
+
+<style>
+    *{
+        font-family: monospace;
+        color: firebrick;
+    }
+    fieldset{
+        background-color:rgb(255, 216, 119);
+    }
+    input.text, input.email,textarea{
+        width: 250px;
+    }
+    
+
+    button{
+        width: 100px;
+        height: 40px;
+        cursor: pointer;
+        background-color: transparent;
+        border-radius: 50px;
+        border-color: firebrick;
+    }
+    button:hover{
+        transition: .5s;
+        color: rgb(255, 216, 119);
+        background-color: firebrick;
+
+    }
+    
+</style>
+<body>
+        <form action="" name="atividade" id="atividade" onsubmit="return validarCampos();">
+          <fieldset>
+            <h2>Formulário Principal</h2>
+            <input type="text" name="nome" id="nome" class="text" placeholder="Nome">
+            <br><br>
+            <input type="email" name="email" id="email" class="email" class="text" placeholder="Email">
+            <br><br>
+            <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Seu Comentário"></textarea>
+            <h3>Pesquisa</h3>
+            <p>Primeira vez nessa página?</p>
+            <div class="radios">
+              <input type="radio" name="pesquisa" id="sim" class="radio" value="Sim">
+              <label for="sim">Sim</label>
+              <input type="radio" name="pesquisa" id="nao" class="radio" value="Não">
+              <label for="nao">Não</label>
+            </div>
+            <div class="buttons">
+                <br>
+              <button type="submit" name="enviar" id="enviar" class="button">Enviar</button>
+              <button type="reset" name="limpar" id="limpar" class ="button">Limpar</button>
+            </div>
+               </fieldset>
+
+        <script src="ativ14.js"></script>
+</body>
+</html>
