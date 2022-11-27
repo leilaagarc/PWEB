@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,700&display=swap');
+@import url(bootstrap.css);
+@import url(./config.css);
+@import url(./style.css);
+@import url(./global.css);
+@import url(./responsive.css);
+
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.background{
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5));
+    background-image: url(img/background.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.header{
+    display: flex;
+    justify-content:space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+
+.logo{
+    height: 60px;
+    width: 60px;
+}
+
+.sobre-mim{
+    width: 100%;
+    letter-spacing: 1px;
+    color:black;
+}
+.sobre-mim h2{
+    color:red;
+}
+
+.container-text{
+    padding:150px;
+    margin-top: -150px;
+}
+
+.text{
+    color: white;
+}
+
+.text span{
+    color: red;
+}
+
+.redes-sociais a{
+    color:red;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.foto{
+    width: 250px;
+    height: 250px;
+    margin-top: 45px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+}
+
+.card{
+    width: 350px;
+    height: 350px;
+    border-radius: 50px;
+    border-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    background-position: center;
+}
+
+.card-text{
+    width: 40%;
+    letter-spacing: 1px;
+    color:red;
+    margin: 15px;
+}
+
+.card-wrapper{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card-wrapper h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0;
+    transition: .5s ease-in-out;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    text-decoration: none;
+    color:black;
+    background-color: transparent;
+    border-color: red;
+}
+
+button:hover{
+    background-color: black;
+    color:red;
+    transition: .5s;
+    border-color: #222 ;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:black;
+}
+
+.navbar {
+    text-transform: lowercase;
+    font-weight: 500;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+}
+
+h4{
+    color: black;
+    transition: none;
+    
+}
+
+.contato,h2{
+    color: red;
+    align-items: center;
+    justify-content: center;
+}
+
+
+a:hover{
+    color: white;
+}
+
+button a:hover{
+    color: red;
+}
+
+.carousel .card{
+    width: 500px;
+    height: 500px;
+    background-color: #222;
+    border-radius: 6px;
+    padding: 25px 35px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.carousel .card:hover{
+    background: red;
+    
+}
+
+.carousel .card:hover button{
+    border-color: black;
+}
+.card p{
+    color: #fff;
+    font-size: 10px;
+}
+
+.card:hover p{
+    color: black;
+    font-size: 11px;
+    transition: .2s;
+}
+
+.carousel .card .box{
+    display: inline;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.carousel .card .text{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+.carousel .card img{
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid red;
+    transition: all 0.3s ease;
+}
+.carousel .card:hover img{
+    border-color: black;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swiper-button-next{
+    color: white;
+  }
+  .swiper-button-prev{
+    color:white;
+  }
+  .swiper-pagination{
+    color: white;
+  }
+   
+
+
+ 
+
+
+
+
+
